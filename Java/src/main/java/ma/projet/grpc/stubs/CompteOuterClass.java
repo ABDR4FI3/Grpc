@@ -88,7 +88,7 @@ public final class CompteOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\014compte.proto\"T\n\006Compte\022\n\n\002id\030\001 \001(\t\022\r\n\005" +
+      "\n\014compte.proto\"T\n\006Compte\022\n\n\002id\030\001 \001(\002\022\r\n\005" +
       "solde\030\002 \001(\002\022\024\n\014dateCreation\030\003 \001(\t\022\031\n\004typ" +
       "e\030\004 \001(\0162\013.TypeCompte\"O\n\rCompteRequest\022\r\n" +
       "\005solde\030\001 \001(\002\022\024\n\014dateCreation\030\002 \001(\t\022\031\n\004ty" +
@@ -96,7 +96,7 @@ public final class CompteOuterClass {
       "ount\030\001 \001(\005\022\013\n\003sum\030\002 \001(\002\022\017\n\007average\030\003 \001(\002" +
       "\"\026\n\024GetAllComptesRequest\"1\n\025GetAllCompte" +
       "sResponse\022\030\n\007comptes\030\001 \003(\0132\007.Compte\"\"\n\024G" +
-      "etCompteByIdRequest\022\n\n\002id\030\001 \001(\t\"0\n\025GetCo" +
+      "etCompteByIdRequest\022\n\n\002id\030\001 \001(\002\"0\n\025GetCo" +
       "mpteByIdResponse\022\027\n\006compte\030\001 \001(\0132\007.Compt" +
       "e\"\026\n\024GetTotalSoldeRequest\"3\n\025GetTotalSol" +
       "deResponse\022\032\n\005stats\030\001 \001(\0132\013.SoldeStats\"3" +

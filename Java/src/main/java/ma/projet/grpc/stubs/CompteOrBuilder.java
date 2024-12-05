@@ -8,16 +8,10 @@ public interface CompteOrBuilder extends
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>string id = 1;</code>
+   * <code>float id = 1;</code>
    * @return The id.
    */
-  java.lang.String getId();
-  /**
-   * <code>string id = 1;</code>
-   * @return The bytes for id.
-   */
-  com.google.protobuf.ByteString
-      getIdBytes();
+  float getId();
 
   /**
    * <code>float solde = 2;</code>

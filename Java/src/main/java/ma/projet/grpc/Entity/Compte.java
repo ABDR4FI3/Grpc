@@ -16,8 +16,8 @@ import lombok.NoArgsConstructor;
 @Builder
 public class Compte {
     @Id
-    @GeneratedValue(strategy = GenerationType. AUTO)
-    private String id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
     private float solde;
     private String dateCreation;
     private String type;
